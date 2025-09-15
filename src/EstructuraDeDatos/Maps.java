@@ -37,6 +37,19 @@ public class Maps {
 //        System.out.println(names);
 
         // Otras operaciones
-        names.
+
+        //modificar elementos
+        names.put("Ronaldo", "moctz23@outlook.com");
+
+        names.put("Daniel", "daniel123@gmail.com");
+        System.out.println(names);
+
+        names.replace("Daniel", "damoctz@gmail.com"); //remplaza el valor si exitse
+        System.out.println(names);
+
+        names.putIfAbsent("Ixtzchel", "ixMoctz@gmail.com");
+        System.out.println(names.isEmpty());
+        var values = names.values();
+        System.out.println(values);
     }
 }

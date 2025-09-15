@@ -23,8 +23,6 @@ public class Arrays {
         System.out.println(names.length);
         names[2] = "Ronaldhino";
         names[2] = null;
-        System.out.println(names.length);
-
-
+        System.out.println(names[0]);
     }
 }

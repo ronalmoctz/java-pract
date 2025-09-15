@@ -1,6 +1,9 @@
 package EstructuraDeDatos;
 
+import java.nio.MappedByteBuffer;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class List {
     public static void main(String[] args) {
@@ -35,5 +38,7 @@ public class List {
         //Limpiar array list
         names.clear();
         System.out.println(names.size());
+
+
     }
 }
