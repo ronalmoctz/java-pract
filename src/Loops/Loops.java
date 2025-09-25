@@ -50,5 +50,47 @@ public class Loops {
             System.out.println("Hola mundo");
             index++;
         }
+
+        /**
+         * Jugando un poco con la condicionales e if
+         */
+        index = 0;
+        boolean find = false;
+        while (!find) {
+            System.out.println(names[index]);
+            if (names[index].equals("fernanda")){
+                find = true;
+            }
+            index++;
+        }
+
+        // -do-while
+
+        index = 0;
+
+        do {
+            System.out.println("Hola, Java");
+            index++;
+        } while (index < 0);
+
+        // control de bucles
+
+        // Break
+
+        for (String name: names){
+            if (name.equals("fernanda")){
+                break;
+            }
+            System.out.println(name);
+        }
+
+        // - continue
+
+        for (int i = 0; i < 5; i++){
+            if (i == 3){
+                continue;
+            }
+            System.out.println(i);
+        }
     }
 }
